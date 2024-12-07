@@ -5,7 +5,21 @@ Raymond Connor Zachary Almedin
 import turtle as t
 import random as r
 
+## RAYMOND'S PORTION START ##
 
+# Creating the turtle and setting up the screen
+t = Turtle()
+t.shape("turtle")
+t.color("green")
+t.pensize(5)
+t.speed(0)
+s = t.Screen()
+s.title("Random Shapes")
+s.setup(width = 800, height = 600)
+s.bgcolor("blue")
+t.home()
+
+## RAYMOND'S PORTION END ##
 
 ## ALS PORTION START ##
 
